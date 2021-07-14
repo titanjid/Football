@@ -1,0 +1,96 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+p{
+    font-family: none;
+}
+/* header stard */
+.header{
+   display: flex;
+   /* display: grid; */
+   background-color: #2D25A0;
+   margin-bottom: 70px;
+   width: 100%;
+   height: 677px;
+}
+.header-title a{
+    padding:10px 10px 15px 15px;
+}
+
+.header img:hover{
+    transition: transform .7s ease-in-out;
+    transform: rotate(360deg); 
+}
+.header div{
+    margin-top: 135px;
+    margin-bottom: 86px;
+    margin-left: 156px;
+    margin-right: 184px;
+}
+h1{
+    font-size: 35px;
+    color: white;
+}
+.header-title a{
+    text-decoration: none;
+    color:white;
+    background: #E02C6D;
+}
+.fa-long-arrow-alt-right{
+    margin-left: 10px;
+    color: white;
+}
+
+.header img{
+    width: 556px;
+    height: 430px;
+}
+/* header end */
+/* main tag stard */
+
+.containar{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+
+    margin-left: 180px;
+    margin-right: 210px;
+    width: 1050px;
+    height: 1503px;
+}
+.box-div{
+    box-shadow:0px 16px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    width: 300px;
+    padding: 15px;
+    height: 474px;
+    margin-bottom: 10px;
+}
+.players img{
+    /* width: 300px; */
+    height: 256px;
+}
+.player-info{
+    height: 154px;
+}
+.player-info p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+/* main tag end */
+
+/* footer stard */
+footer{
+       text-align:center;
+       margin-top: 165px;
+}
+footer img{
+    width: 484px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.footer-icon i{
+    margin-right: 14px;
+}
+/* footer end */
